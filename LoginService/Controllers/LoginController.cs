@@ -37,7 +37,7 @@ namespace LoginService.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpGet("validatetoken")]
         public IActionResult ValidateToken(string token, string username)
         {
             try
